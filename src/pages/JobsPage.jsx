@@ -16,18 +16,26 @@ function EmptyJobCard({ totalJobsCount, onResetFilter }) {
         <div className="flex gap-3 items-center w-full">
           <div
             className={`h-10 w-10 rounded-xl bg-gradient-to-br ${
-              isNoDataAtAll ? "from-red-500 to-rose-600" : "from-indigo-500 to-indigo-700"
+              isNoDataAtAll
+                ? "from-red-500 to-rose-600"
+                : "from-indigo-500 to-indigo-700"
             } flex items-center justify-center text-white shrink-0 shadow-sm`}
             aria-hidden="true"
           >
-            {isNoDataAtAll ? <RefreshCw className="w-5 h-5" /> : <Search className="w-5 h-5" />}
+            {isNoDataAtAll ? (
+              <RefreshCw className="w-5 h-5" />
+            ) : (
+              <Search className="w-5 h-5" />
+            )}
           </div>
           <div className="min-w-0 flex-1 overflow-hidden">
             <h3 className="text-xs font-bold text-text-h m-0 text-left leading-snug">
               {isNoDataAtAll ? "Eroare încărcare" : "Fără joburi"}
             </h3>
             <p className="text-[11px] font-semibold text-text text-left mt-0.5">
-              {isNoDataAtAll ? "Reîncearcă mai târziu" : "Selectează alt filtru"}
+              {isNoDataAtAll
+                ? "Reîncearcă mai târziu"
+                : "Selectează alt filtru"}
             </p>
           </div>
         </div>
@@ -55,7 +63,12 @@ function EmptyJobCard({ totalJobsCount, onResetFilter }) {
   );
 }
 
-export function JobsPage({ filteredJobs, totalJobsCount, onResetFilter, onApply }) {
+export function JobsPage({
+  filteredJobs,
+  totalJobsCount,
+  onResetFilter,
+  onApply,
+}) {
   const cardRefs = useRef([]);
   const listRef = useRef(null);
 
@@ -91,12 +104,14 @@ export function JobsPage({ filteredJobs, totalJobsCount, onResetFilter, onApply 
           ref={listRef}
           role="list"
           aria-label="Listă locuri de muncă"
-          className="flex flex-col gap-3 overflow-y-auto snap-y snap-mandatory"
+          className="flex flex-col gap-3 overflow-y-auto overflow-x-hidden snap-y snap-mandatory"
         >
           {filteredJobs.map((job, idx) => (
             <div
               key={job.id}
-              ref={(el) => { cardRefs.current[idx] = el; }}
+              ref={(el) => {
+                cardRefs.current[idx] = el;
+              }}
               role="listitem"
               className="snap-start shrink-0"
             >
@@ -106,11 +121,12 @@ export function JobsPage({ filteredJobs, totalJobsCount, onResetFilter, onApply 
         </div>
       )}
 
-      {/* Button: Mai multe peViitor */}
       <Button
         variant="outline"
         className="w-full py-2.5 mt-1 border-indigo-600/30 hover:border-indigo-600/60 text-indigo-600 dark:text-indigo-400 font-bold"
-        onClick={() => window.open("https://peviitor.ro/", "_blank", "noopener,noreferrer")}
+        onClick={() =>
+          window.open("https://peviitor.ro/", "_blank", "noopener,noreferrer")
+        }
       >
         Mai multe peViitor
       </Button>
