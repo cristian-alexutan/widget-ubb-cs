@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getJobs } from "./services/api";
 import { Header } from "./layout/Header";
 import { JobsPage } from "./pages/JobsPage";
-import { FACULTIES, DEFAULT_STUDENT, ALL_FACULTIES_OPTION } from "./utils/constants";
+import { DEFAULT_STUDENT, ALL_FACULTIES_OPTION } from "./utils/constants";
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -11,8 +11,28 @@ function App() {
 
   const [student, setStudent] = useState(DEFAULT_STUDENT);
 
-  const [filterByProfile] = useState(true);
-  const [jobs] = useState(() => getJobs());
+  const [jobs, setJobs] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  // Fetch jobs on mount
+  useEffect(() => {
+    let active = true;
+    getJobs().then((data) => {
+      if (active) {
+        setJobs(data);
+        setLoading(false);
+      }
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  // Derive unique faculties dynamically from f_tag of jobs
+  const faculties = [
+    ALL_FACULTIES_OPTION,
+    ...new Set(jobs.flatMap((job) => job.f_tag || []))
+  ];
 
   // Theme effect
   useEffect(() => {
@@ -30,17 +50,19 @@ function App() {
   };
 
   const handleApplyStart = (job) => {
-    window.open(
-      `https://peviitor.ro/rezultate?q=${encodeURIComponent(job.title)}&country=Rom%C3%A2nia`,
-      "_blank",
-      "noopener,noreferrer"
-    );
+    const applyUrl = job._root_ || job.url;
+    if (applyUrl) {
+      window.open(applyUrl, "_blank", "noopener,noreferrer");
+    }
   };
 
-  // Filter logic - show all when 'Toate' is selected, otherwise filter by faculty
+  // Filter logic - show all when 'Toate' is selected, otherwise filter by f_tag
   const filteredJobs = jobs.filter((job) => {
-    if (student.faculty !== ALL_FACULTIES_OPTION && job.faculty !== student.faculty) {
-      return false;
+    if (student.faculty !== ALL_FACULTIES_OPTION) {
+      const tags = job.f_tag || [];
+      if (!tags.includes(student.faculty)) {
+        return false;
+      }
     }
     return true;
   });
@@ -55,18 +77,24 @@ function App() {
         toggleTheme={toggleTheme}
         student={student}
         setStudent={setStudent}
-        faculties={FACULTIES}
+        faculties={faculties}
       />
 
       <main className="flex-1 p-3" id="main-content">
-        <JobsPage
-          filteredJobs={filteredJobs}
-          onApply={handleApplyStart}
-        />
+        {loading ? (
+          <div className="flex flex-col items-center justify-center py-16 text-xs text-text/60 font-semibold gap-2">
+            <div className="w-5 h-5 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
+            <span>Se încarcă joburile...</span>
+          </div>
+        ) : (
+          <JobsPage
+            filteredJobs={filteredJobs}
+            onApply={handleApplyStart}
+          />
+        )}
       </main>
     </div>
   );
 }
-
 
 export default App;
