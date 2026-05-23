@@ -1,4 +1,4 @@
-import { Sun, Moon } from "lucide-react";
+import { Sun, Moon, ArrowLeft } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { CustomDropdown } from "../components/ui/CustomDropdown";
 
@@ -8,17 +8,28 @@ export function Header({
   student,
   setStudent,
   faculties,
+  onBack,
 }) {
   return (
     <header
       className="bg-bg/85 backdrop-blur-md sticky top-0 z-40 transition-colors duration-200"
       role="banner"
     >
-      {/* Row 1: Brand + Theme toggle */}
       <div className="flex items-center justify-between px-3 py-2">
-        <span className="text-sm font-bold tracking-tight text-text-h">
-          peViitor.ro
-        </span>
+        <div className="flex items-center gap-1">
+          {onBack && (
+            <button
+              onClick={onBack}
+              className="text-text hover:text-text-h p-1 rounded-lg hover:bg-border/40 cursor-pointer flex items-center justify-center mr-1"
+              aria-label="Înapoi la universități"
+            >
+              <ArrowLeft className="w-4 h-4" />
+            </button>
+          )}
+          <span className="text-sm font-bold tracking-tight text-text-h">
+            peViitor.ro
+          </span>
+        </div>
         <Button
           variant="ghost"
           size="icon"
@@ -34,7 +45,6 @@ export function Header({
         </Button>
       </div>
 
-      {/* Row 2: Faculty dropdown */}
       <div className="border-t border-border/60 px-3 py-2">
         <CustomDropdown
           value={student.faculty}
@@ -46,4 +56,3 @@ export function Header({
     </header>
   );
 }
-

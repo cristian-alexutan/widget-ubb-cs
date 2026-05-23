@@ -6,7 +6,6 @@ export function CustomDropdown({ value, onChange, options, ariaLabel }) {
   const dropdownRef = useRef(null);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
 
-  // Close dropdown on outside click
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -20,7 +19,6 @@ export function CustomDropdown({ value, onChange, options, ariaLabel }) {
   const handleToggle = () => {
     setIsOpen(!isOpen);
     if (!isOpen) {
-      // Highlight the currently selected option
       const currentIdx = options.findIndex((opt) => opt === value);
       setHighlightedIndex(currentIdx >= 0 ? currentIdx : 0);
     }
@@ -48,7 +46,9 @@ export function CustomDropdown({ value, onChange, options, ariaLabel }) {
         setIsOpen(true);
         setHighlightedIndex(options.length - 1);
       } else {
-        setHighlightedIndex((prev) => (prev - 1 + options.length) % options.length);
+        setHighlightedIndex(
+          (prev) => (prev - 1 + options.length) % options.length,
+        );
       }
       e.preventDefault();
     } else if (e.key === "Enter" || e.key === " ") {
@@ -64,8 +64,8 @@ export function CustomDropdown({ value, onChange, options, ariaLabel }) {
   };
 
   return (
-    <div 
-      className="relative w-full" 
+    <div
+      className="relative w-full"
       ref={dropdownRef}
       onKeyDown={handleKeyDown}
     >
@@ -77,11 +77,15 @@ export function CustomDropdown({ value, onChange, options, ariaLabel }) {
         aria-expanded={isOpen}
         aria-label={ariaLabel}
         className={`w-full bg-bg-card text-text-h text-xs border rounded-xl px-3.5 py-2.5 text-left flex items-center justify-between cursor-pointer focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 focus:ring-offset-0 hover:border-text/30 transition-all font-medium ${
-          isOpen ? "border-accent ring-2 ring-accent/20 ring-offset-0" : "border-border"
+          isOpen
+            ? "border-accent ring-2 ring-accent/20 ring-offset-0"
+            : "border-border"
         }`}
       >
         <span className="truncate">{value}</span>
-        <ChevronDown className={`w-4 h-4 text-text transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
+        <ChevronDown
+          className={`w-4 h-4 text-text transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+        />
       </button>
 
       {/* Floating Menu */}
@@ -102,16 +106,19 @@ export function CustomDropdown({ value, onChange, options, ariaLabel }) {
                 onClick={() => handleSelect(option)}
                 onMouseEnter={() => setHighlightedIndex(idx)}
                 className={`px-3.5 py-2 text-xs cursor-pointer select-none transition-colors duration-150 flex items-center justify-between ${
-                  isSelected 
-                    ? "font-bold text-accent bg-accent-bg" 
-                    : isHighlighted 
-                      ? "bg-code-bg text-text-h font-medium" 
+                  isSelected
+                    ? "font-bold text-accent bg-accent-bg"
+                    : isHighlighted
+                      ? "bg-code-bg text-text-h font-medium"
                       : "text-text"
                 }`}
               >
                 <span className="truncate w-full text-left pr-2">{option}</span>
                 {isSelected && (
-                  <Check className="w-4 h-4 text-accent shrink-0" aria-hidden="true" />
+                  <Check
+                    className="w-4 h-4 text-accent shrink-0"
+                    aria-hidden="true"
+                  />
                 )}
               </li>
             );
@@ -121,4 +128,3 @@ export function CustomDropdown({ value, onChange, options, ariaLabel }) {
     </div>
   );
 }
-

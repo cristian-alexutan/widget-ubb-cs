@@ -188,3 +188,28 @@ input:focus-visible, button[aria-haspopup="listbox"]:focus-visible {
   scrollbar-width: thin;
   scrollbar-color: var(--scrollbar-thumb) transparent;
 }
+
+/* UTCN Institutional Styles */
+.utcn-topbar {
+  background-color: #2b2b2b !important;
+  color: #fefefe !important;
+}
+
+.utcn-intranet {
+  background-color: #4261e4 !important;
+  color: #ffffff !important;
+}
+
+.utcn-intranet:hover {
+  background-color: #314ec7 !important;
+}
+
+.utcn-blue-section {
+  background-color: #4261e4 !important;
+  color: #ffffff !important;
+}
+
+.utcn-active-link {
+  background-color: #4261e4 !important;
+  color: #ffffff !important;
+}
