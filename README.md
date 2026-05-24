@@ -21,6 +21,12 @@ Colectăm toate locurile de muncă de pe [peviitor.ro](https://peviitor.ro) și,
 4. Match-uim tag-urile joburilor cu profilurile instituțiilor de învățământ
 5. Generăm recomandări personalizate per instituție
 
+## Articole & mențiuni
+
+- **[Asociația Oportunități și Cariere — Cluj Hackathon 2026](https://www.linkedin.com/posts/asociatia-oportunitati-si-cariere_clujhackathon-clujhackathon2026-opensource-activity-7463907374190309376--UUN)** — Postare LinkedIn despre participarea echipei la hackathon
+- **[Cluj Hackathon 2026: Peste 250 de programatori, ingineri și antreprenori, în misiunea de a Digitaliza România în 48 de ore](https://www.zcj.ro/tehnologie/cluj-hackathon-2026-peste-250-de-programatori-ingineri-si-antreprenori-in-misiunea-de-a-digitaliza-romania-in-48-de-ore--295638.html)** — Ziarul de Cluj
+- **[Hackathon la Cluj pentru modernizarea administrației și digitalizarea României](https://cluj1.ro/hackathon-la-cluj-pentru-modernizarea-administratiei-si-digitalizarea-romaniei-rus-digitalizarea-romaniei-se-face-prin-oameni-buni-si-cod-bun/)** — Cluj1
+
 ## Contribuții
 
 Contribuțiile sunt binevenite!
