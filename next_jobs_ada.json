@@ -15,7 +15,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 95,
-    "reason": "Internship perfect pentru nivelul meu"
+    "reason": "Internship perfect pentru un student — programare, entry-level"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/junior-software-developer-91",
@@ -32,8 +32,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 90,
-    "reason": "Junior dev, potrivit pentru skill-uri"
+    "matchPercentage": 85,
+    "reason": "Junior dev, se potrivește cu skillurile de programare"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-developer-software-engineer-helpdesk-17",
@@ -51,7 +51,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 70,
-    "reason": "Rol mixt, dar include programare și nivel junior"
+    "reason": "Rol mixt dev+helpdesk, entry-level, relevant parțial"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/inginer-software-industrial-plc-scada-4",
@@ -68,8 +68,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 85,
-    "reason": "Automatizări/embedded, direct în zona mea"
+    "matchPercentage": 80,
+    "reason": "Automatizări industriale — se potrivește cu pregătirea în automatică și embedded"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/c-software-developer-174",
@@ -86,8 +86,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 80,
-    "reason": "Rol de programare, potențial junior/mid"
+    "matchPercentage": 75,
+    "reason": "Programare C#, relevant pentru skillurile de OOP/software"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-tester-414",
@@ -105,7 +105,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 75,
-    "reason": "Testing entry-level, bun de început"
+    "reason": "QA entry-level, relevant pentru început de carieră"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-developer-853",
@@ -122,8 +122,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 85,
-    "reason": "Rol de programare general, junior-friendly"
+    "matchPercentage": 60,
+    "reason": "Rol de dev, dar salariu foarte mic (305 RON)"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/aws-engineer-2",
@@ -141,7 +141,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 70,
-    "reason": "Cloud engineering, mid-level realizabil"
+    "reason": "Cloud engineering, relevant pentru rețele și IT, nivel mid"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/devops-engineer-721",
@@ -158,8 +158,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 75,
-    "reason": "DevOps, skill-uri de rețele și OS aplicabile"
+    "matchPercentage": 80,
+    "reason": "DevOps, potrivit pentru skillurile de rețele și Linux"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/devops-engineer-aws-specialist",
@@ -176,26 +176,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 70,
-    "reason": "DevOps/cloud, mid-level abordabil"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/technical-documentation-engineer-44",
-    "title": "Technical Documentation Engineer",
-    "company": "AXALIS",
-    "location": [
-      "Bucharest, Romania"
-    ],
-    "salary": [
-      "1100 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 35,
-    "reason": "Documentare tehnică, slabă legătură cu skill-urile"
+    "matchPercentage": 75,
+    "reason": "DevOps/cloud, relevant, nivel mid"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/qa-engineer-tester-8",
@@ -213,25 +195,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 75,
-    "reason": "QA entry-level, abordabil"
-  },
-  {
-    "url": "https://www.randstad.ro/locuri-de-munca/sales-engineer_timisoara_5153/",
-    "title": "Sales Engineer",
-    "company": "RANDSTAD ROMANIA",
-    "location": [
-      "Timisoara"
-    ],
-    "salary": [
-      "9000-10000 RON"
-    ],
-    "date": "2026-05-29T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 45,
-    "reason": "Rol tehnic în robotică/automatizări, dar orientat vânzări"
+    "reason": "QA entry-level, relevant"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/middle-data-engineer-5",
@@ -248,8 +212,26 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 75,
-    "reason": "Data engineering mid-level, skill-uri ML/AI relevante"
+    "matchPercentage": 80,
+    "reason": "Data engineering, se potrivește cu AI/ML și programare"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/ip-datacom-engineer-1",
+    "title": "IP/Datacom Engineer",
+    "company": "HUAWEI",
+    "location": [
+      "Bucuresti"
+    ],
+    "salary": [
+      "1675-1850 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 85,
+    "reason": "Rețele — perfect pentru skillurile de rețele și securitate"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/edi-integration-developer-backend-developer",
@@ -266,8 +248,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 80,
-    "reason": "Backend dev remote, junior-friendly"
+    "matchPercentage": 75,
+    "reason": "Backend development, remote, potrivit pentru un mid"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/java-developer-1192",
@@ -284,8 +266,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 85,
-    "reason": "Java face parte din skillurile principale, salariu de nivel junior/internship, remote"
+    "matchPercentage": 90,
+    "reason": "Java în skill-uri, remote, salariu junior-friendly"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/c-developer-307",
@@ -303,25 +285,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 90,
-    "reason": "C++ este un skill principal, salariu de nivel internship, potrivit pentru început de carieră"
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3279615",
-    "title": "PROGRAMATOR AJUTOR",
-    "company": "AROBS TRANSILVANIA SOFTWARE S.",
-    "location": [
-      "Cluj-napoca"
-    ],
-    "salary": [
-      "4500 RON"
-    ],
-    "date": "2026-05-28T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 70,
-    "reason": "AROBS e companie software în Cluj, rol junior-friendly, salariu bun pentru începător"
+    "reason": "C++ în skill-uri, remote, potrivit pentru internship/junior"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/ai-instructor-applied-ai-coach-b2b-1",
@@ -338,8 +302,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 65,
-    "reason": "AI teaching, potrivit pentru cunoștințele de AI/ML, remote, salariu bun"
+    "matchPercentage": 50,
+    "reason": "AI knowledge relevant, dar rol de coaching nu dev"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/dezvoltator-aplicatii-ai",
@@ -356,8 +320,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 85,
-    "reason": "Dezvoltare AI, perfect pentru skill-urile de programare și AI, remote"
+    "matchPercentage": 92,
+    "reason": "AI + dev, perfect pentru level junior/internship"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/softwareentwickler",
@@ -374,8 +338,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 80,
-    "reason": "Dezvoltare software, remote, potrivit pentru competențele de programare"
+    "matchPercentage": 85,
+    "reason": "Software developer, potrivit pentru nivel junior/mid"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/python-developer-for-ai-startup",
@@ -392,8 +356,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 90,
-    "reason": "Python + AI startup, ideal pentru skill-urile de programare și AI"
+    "matchPercentage": 95,
+    "reason": "Python + AI startup, match excelent"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/ai-enthusiast-data-devloper",
@@ -410,62 +374,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 85,
-    "reason": "AI/Data developer în Cluj, salariu excelent pentru nivel junior/mid"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/full-stack-ai-engineer-automation-systems-1",
-    "title": "Full-Stack AI Engineer (Automation & Systems)",
-    "company": "AROA AGENCY",
-    "location": [
-      "Bucuresti"
-    ],
-    "salary": [
-      "2000 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 80,
-    "reason": "AI + automatizări, perfect pentru skill-urile de AI și automation"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/data-analyst-522",
-    "title": "Data analyst (Remote)",
-    "company": "TIKS",
-    "location": [
-      "Remote"
-    ],
-    "salary": [
-      "1200 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 60,
-    "reason": "Analiză date, relevant pentru skill-urile de programare, remote"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/bi-data-analyst-7",
-    "title": "BI/ Data analyst",
-    "company": "DATEIO",
-    "location": [
-      "Bucuresti,Bucuresti"
-    ],
-    "salary": [
-      "1500-1750 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 55,
-    "reason": "BI/Data analysis, relevant pentru profil, în București"
+    "matchPercentage": 82,
+    "reason": "AI + data, Cluj-Napoca, salariu bun junior/mid"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/back-end-developer-108",
@@ -482,8 +392,26 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 75,
-    "reason": "Dezvoltare backend, potrivit pentru competențele de programare"
+    "matchPercentage": 78,
+    "reason": "Backend dev, potrivit pentru junior/mid"
+  },
+  {
+    "url": "https://devjob.ro/jobs/Webmagnat-Python-with-AWS-developer",
+    "title": "Python with AWS developer",
+    "company": "WEBMAGNAT",
+    "location": [
+      "Iasi"
+    ],
+    "salary": [
+      "15000-20000 RON"
+    ],
+    "date": "2026-05-27T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 60,
+    "reason": "Python si AWS, tehnologii relevante pentru Ada, dar salariul indica nivel mid"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/programator-python-14",
@@ -500,26 +428,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 80,
-    "reason": "Python, potrivit pentru nivel junior/mid, dar salariu mic si locatie Buftea"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/python-golang-developer-with-kubernetes-knowledge",
-    "title": "Python/Golang Developer with Kubernetes knowledge",
-    "company": "LUXOFT",
-    "location": [
-      "Remote"
-    ],
-    "salary": [
-      "925-1025 RON"
-    ],
-    "date": "2026-05-29T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
     "matchPercentage": 70,
-    "reason": "Python/Golang, remote, bun pentru mid, desi Kubernetes poate fi avansat"
+    "reason": "Rol de programare Python, salariu mic ce sugereaza entry-level, potrivit pentru student"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/junior-python-developer-fonduri-de-investitii",
@@ -536,7 +446,95 @@
     "f_tag": [
       "UTCNAC"
     ],
+    "matchPercentage": 95,
+    "reason": "Junior Python Developer Remote, perfect ca nivel si tehnologie pentru Ada"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/qa-engineer-manual-and-automation-with-python",
+    "title": "QA engineer - manual and automation with Python",
+    "company": "ARTSOFT CONSULT",
+    "location": [
+      "Cluj-Napoca, Romania"
+    ],
+    "salary": [
+      "1495-1655 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 65,
+    "reason": "QA automation cu Python in Cluj, relevant pentru skill-urile de programare"
+  },
+  {
+    "url": "https://devjob.ro/jobs/Xreacher-Python-Developer-for-AI-startup",
+    "title": "Python Developer for AI startup",
+    "company": "XREACHER",
+    "location": [],
+    "salary": [
+      "6000-12000 RON"
+    ],
+    "date": "2026-05-27T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
     "matchPercentage": 85,
-    "reason": "Junior Python, remote, perfect pentru nivelul actual"
+    "reason": "Python + AI startup, se potriveste perfect cu skill-urile de AI/ML ale Adei, salariu junior/mid"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/java-developer-1152",
+    "title": "Java developer",
+    "company": "NLIGHT MEDIA CREATIVE",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "925-1025 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 60,
+    "reason": "Java developer remote, salariu junior/mid, relevant pentru skill-urile Adei"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/junior-java-developer-100",
+    "title": "Junior Java Developer",
+    "company": "VEST INTEGRATED SOLUTIONS",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "1040-1150 RON"
+    ],
+    "date": "2026-05-26T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 90,
+    "reason": "Junior Java Developer Remote, perfect pentru nivelul si skill-urile Adei"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/software-developer-react-java-node-js",
+    "title": "Software Developer (React, Java, Node.js)",
+    "company": "STONIKBYTE",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "945-1045 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 55,
+    "reason": "Remote, tehnologii cunoscute (Java, web), dar full-stack poate fi provocator pentru junior"
   }
 ]
