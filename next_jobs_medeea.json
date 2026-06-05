@@ -15,7 +15,7 @@
       "UBVFMIIA"
     ],
     "matchPercentage": 95,
-    "reason": "Internship perfect pentru studentă"
+    "reason": "Internship plătit în软件开发, perfect pentru un student."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/junior-software-developer-91",
@@ -33,7 +33,7 @@
       "UBVFMIIA"
     ],
     "matchPercentage": 90,
-    "reason": "Junior dev, se potrivește cu skill-urile"
+    "reason": "Poziție junior de developer, se aliniază cu skill-urile și nivelul."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-developer-software-engineer-helpdesk-17",
@@ -50,8 +50,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 70,
-    "reason": "Dev, dar include helpdesk — acceptabil pentru entry-level"
+    "matchPercentage": 65,
+    "reason": "Componentă de dezvoltare software, relevantă, deși include și helpdesk."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/c-software-developer-174",
@@ -68,8 +68,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 80,
-    "reason": "C# în setul de skill-uri, mid-level abordabil"
+    "matchPercentage": 85,
+    "reason": "Developer C#, limbaj cunoscut, poziție junior."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-tester-414",
@@ -86,8 +86,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 85,
-    "reason": "Testare/validare în skill-uri, entry-level"
+    "matchPercentage": 80,
+    "reason": "Testare software, menționat în skill-uri, nivel junior."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-developer-853",
@@ -104,8 +104,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 75,
-    "reason": "Generic dev, salariu mic dar util ca experiență"
+    "matchPercentage": 85,
+    "reason": "Poziție generică de developer, relevantă."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/aws-engineer-2",
@@ -122,8 +122,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 75,
-    "reason": "Cloud (AWS), relevant pentru skill-uri"
+    "matchPercentage": 60,
+    "reason": "Cloud/AWS, skill-uri relevante, dar posibil mid-level."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/devops-engineer-721",
@@ -140,8 +140,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 80,
-    "reason": "DevOps/cloud, se potrivește cu skill-urile"
+    "matchPercentage": 65,
+    "reason": "DevOps, skill-uri de rețele și cloud relevante."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/devops-engineer-aws-specialist",
@@ -158,8 +158,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 80,
-    "reason": "DevOps/AWS, relevant"
+    "matchPercentage": 65,
+    "reason": "DevOps/AWS, relevant pentru skill-urile de cloud și rețele."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/qa-engineer-tester-8",
@@ -176,8 +176,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 85,
-    "reason": "Testare/QA în skill-uri"
+    "matchPercentage": 80,
+    "reason": "Testare/QA, skill relevant, nivel junior."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/middle-data-engineer-5",
@@ -194,26 +194,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 85,
-    "reason": "Data engineering, se aliniază cu AI/ML/data skills"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/ip-datacom-engineer-1",
-    "title": "IP/Datacom Engineer",
-    "company": "HUAWEI",
-    "location": [
-      "Bucuresti"
-    ],
-    "salary": [
-      "1675-1850 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UBVFMIIA"
-    ],
     "matchPercentage": 75,
-    "reason": "Rețele, se potrivește cu skill-urile"
+    "reason": "Data engineering, AI/ML/BD relevante, nivel mid."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/edi-integration-developer-backend-developer",
@@ -231,7 +213,25 @@
       "UBVFMIIA"
     ],
     "matchPercentage": 80,
-    "reason": "Backend dev, relevant pentru programare"
+    "reason": "Backend developer, remote, potrivit pentru un student."
+  },
+  {
+    "url": "https://8ore.ro/locuri-de-munca/wordpress-developer",
+    "title": "WordPress Developer",
+    "company": "PERRFECT.SITE",
+    "location": [
+      "Brasov"
+    ],
+    "salary": [
+      "3000 RON"
+    ],
+    "date": "2026-05-10T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UBVFMIIA"
+    ],
+    "matchPercentage": 55,
+    "reason": "Oferă training, Brasov, web development relevant pentru cunoștințele mele web (Angular/.Net)"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/frontend-developer-384",
@@ -248,8 +248,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 70,
-    "reason": "Frontend, am Angular in skills. Salariul e mic, dar bun pentru internship/junior."
+    "matchPercentage": 75,
+    "reason": "Frontend cu Angular - direct în skill-urile mele, remote, salariu mic dar potrivit pentru internship/junior"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/java-developer-1192",
@@ -267,7 +267,7 @@
       "UBVFMIIA"
     ],
     "matchPercentage": 90,
-    "reason": "Java e in skilluri, remote, salariu ok pentru junior."
+    "reason": "Java este unul dintre skill-urile mele principale, remote, nivel junior"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/c-developer-307",
@@ -284,8 +284,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 85,
-    "reason": "C++ in skilluri, remote, potrivit pentru internship/junior."
+    "matchPercentage": 90,
+    "reason": "C++ este unul dintre skill-urile mele principale, remote, potrivit pentru internship/junior"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/react-native-developer-70",
@@ -302,8 +302,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 80,
-    "reason": "Mobile development, skilluri Android si web, remote, salariu bun."
+    "matchPercentage": 65,
+    "reason": "Mobile development - am experiență Android, React Native e înrudit, remote"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/mobile-developer-63",
@@ -321,7 +321,43 @@
       "UBVFMIIA"
     ],
     "matchPercentage": 85,
-    "reason": "Mobile developer, am Android in skilluri, remote."
+    "reason": "Mobile developer - am Android în skill-uri, remote, nivel junior"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/web-developer-php-18",
+    "title": "Web Developer PHP",
+    "company": "WORKLETO",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "1000-2000 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UBVFMIIA"
+    ],
+    "matchPercentage": 50,
+    "reason": "Web development relevant, deși PHP nu e în skill-urile principale, remote și nivel junior"
+  },
+  {
+    "url": "https://www.randstad.ro/locuri-de-munca/isr-data-maching_bucuresti_5148/",
+    "title": "ISR Data maching",
+    "company": "RANDSTAD ROMANIA",
+    "location": [
+      "Bucuresti"
+    ],
+    "salary": [
+      "10000-12000 RON"
+    ],
+    "date": "2026-05-20T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UBVFMIIA"
+    ],
+    "matchPercentage": 65,
+    "reason": "Baze de date și cifre, mid-level, dar mai mult administrativ"
   },
   {
     "url": "https://devjob.ro/jobs/Webmagnat-Python-with-AWS-developer",
@@ -338,8 +374,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 65,
-    "reason": "Python + AWS matches skills; salary suggests mid-level, achievable for a skilled student"
+    "matchPercentage": 70,
+    "reason": "Python + AWS (Cloud), se potrivește cu skill-urile"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/programator-python-14",
@@ -356,8 +392,26 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 80,
-    "reason": "Python role with junior-level salary range; well within skill set"
+    "matchPercentage": 60,
+    "reason": "Python, potrivit pentru junior, dar salariu mic"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/python-golang-developer-with-kubernetes-knowledge",
+    "title": "Python/Golang Developer with Kubernetes knowledge",
+    "company": "LUXOFT",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "925-1025 RON"
+    ],
+    "date": "2026-05-29T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UBVFMIIA"
+    ],
+    "matchPercentage": 55,
+    "reason": "Python + Kubernetes, dar salariu foarte mic"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/junior-python-developer-fonduri-de-investitii",
@@ -374,8 +428,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 95,
-    "reason": "Junior + Python + Remote — ideal fit for student"
+    "matchPercentage": 85,
+    "reason": "Junior Python, perfect pentru nivelul de student"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/qa-engineer-manual-and-automation-with-python",
@@ -393,7 +447,7 @@
       "UBVFMIIA"
     ],
     "matchPercentage": 75,
-    "reason": "Python + testing matches skills; Cluj-Napoca is commutable from Brașov"
+    "reason": "Testare/Validare + Python, se potrivește perfect cu skill-urile"
   },
   {
     "url": "https://devjob.ro/jobs/Xreacher-Python-Developer-for-AI-startup",
@@ -409,7 +463,7 @@
       "UBVFMIIA"
     ],
     "matchPercentage": 85,
-    "reason": "Python + AI/ML startup — directly matches AI/ML skill set"
+    "reason": "AI startup + Python Backend, perfect pentru skill-urile de AI/ML"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/java-developer-1152",
@@ -426,8 +480,26 @@
     "f_tag": [
       "UBVFMIIA"
     ],
+    "matchPercentage": 65,
+    "reason": "Java, potrivit pentru junior/mid"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/java-developer-integration-consultant-2",
+    "title": "Java Developer / Integration Consultant",
+    "company": "MOSCU",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "2800-3400 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UBVFMIIA"
+    ],
     "matchPercentage": 70,
-    "reason": "Java + Remote + junior salary range; solid match for student"
+    "reason": "Java, mid-level, salariu bun"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/junior-java-developer-100",
@@ -444,8 +516,8 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 90,
-    "reason": "Junior + Java + Remote — excellent fit"
+    "matchPercentage": 85,
+    "reason": "Junior Java, perfect pentru nivel student"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-developer-react-java-node-js",
@@ -462,79 +534,7 @@
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 65,
-    "reason": "Java/React/Node.js matches skills; remote and junior salary"
-  },
-  {
-    "url": "https://devjob.ro/jobs/HORNBACH-IT-HUB-ROMANIA-Java-Software-Developer",
-    "title": "Java Software Developer",
-    "company": "HORNBACH IT HUB ROMANIA",
-    "location": [
-      "Roman"
-    ],
-    "salary": [
-      "10000-15000 RON"
-    ],
-    "date": "2026-05-27T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UBVFMIIA"
-    ],
-    "matchPercentage": 60,
-    "reason": "Java matches; mid-level salary range achievable for student with OOP/Java skills"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/java-software-engineer-88",
-    "title": "JAVA SOFTWARE ENGINEER",
-    "company": "TRANSFER RAPID LIMITED LONDRA BUCURESTI",
-    "location": [
-      "Bucuresti"
-    ],
-    "salary": [
-      "1435-1590 RON"
-    ],
-    "date": "2026-05-23T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UBVFMIIA"
-    ],
-    "matchPercentage": 55,
-    "reason": "Java matches but likely mid-level given salary range"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/programator-backend-java-remote-full-time",
-    "title": "Programator Backend Java – Remote (Full-time)",
-    "company": "LIGEIA CONTACT MANAGEMENT",
-    "location": [
-      "Cornetu"
-    ],
-    "salary": [
-      "1185-1305 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UBVFMIIA"
-    ],
-    "matchPercentage": 70,
-    "reason": "Java + Remote + junior salary range; good fit"
-  },
-  {
-    "url": "https://devjob.ro/jobs/Web-Soft-Development-SRL-Full-Stack-Web-Developer",
-    "title": "Full Stack Web Developer",
-    "company": "WEB SOFT DEVELOPMENT SRL",
-    "location": [
-      "Constanta"
-    ],
-    "salary": [
-      "10000-15000 RON"
-    ],
-    "date": "2026-05-27T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UBVFMIIA"
-    ],
-    "matchPercentage": 80,
-    "reason": "Full stack web development, se potrivește cu Angular/.Net și skill-urile web"
+    "matchPercentage": 75,
+    "reason": "Full-stack, multiple tech-uri din skill-set"
   }
 ]
