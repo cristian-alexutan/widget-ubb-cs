@@ -22,6 +22,7 @@ peviitor API  ──►  script (ada_check.mjs)  ──►  agenți (opencode)  
 |-------|---------------|---------|------------|
 | **Ada** | `agents/Ada.md` | `UTCNAC` | Automatică și Calculatoare, UTCN |
 | **Medeea** | `agents/Medeea.md` | `UBVFMIIA` | Informatică Aplicată, Univ. Transilvania Brașov |
+| **Sofia** | `agents/Sofia.md` | `UBBFMI` | Matematică și Informatică, UBB Cluj-Napoca |
 
 ### Ada
 
@@ -34,6 +35,12 @@ peviitor API  ──►  script (ada_check.mjs)  ──►  agenți (opencode)  
 - Studentă la **Informatică Aplicată, Universitatea Transilvania din Brașov**
 - Skill-uri: programare (C/C++/Java/Python/OOP), web (Angular, .Net), mobile (Android), AI/ML/NLP/LLM, cloud, testare, Unity, grafică 3D
 - Rulează pe promptul din `scripts/ada_check.mjs` și filtrează joburi potrivite pentru nivel internship/junior/mid
+
+### Sofia
+
+- Studentă la **Facultatea de Matematică și Informatică, UBB Cluj-Napoca** ([cs.ubbcluj.ro](https://www.cs.ubbcluj.ro))
+- Skill-uri: programare (C/C++/Java/Python, OOP, SDA, compilatoare), web & mobile (Android, iOS), AI/ML/Deep Learning/NLP/LLM/Computer Vision/RPA, baze de date (distribuite, cloud, BI), embedded/IoT (linia Ingineria Informației), rețele, securitate/criptografie/blockchain, testare/QA, matematică/optimizare
+- Înregistrată în `scripts/fetch_agent_jobs.mjs` și filtrează joburi potrivite pentru nivel internship/junior/mid
 
 ---
 
@@ -80,8 +87,10 @@ Vezi `INSTRUCTIONS.md` — pașii sunt:
 | `scripts/ada_check.mjs` | Script principal: extrage joburi din API, rulează agenții, generează `jobs_ada_matched.json` |
 | `agents/Ada.md` | Profilul agentului Ada (prompt + skill-uri) |
 | `agents/Medeea.md` | Profilul agentului Medeea (prompt + skill-uri) |
+| `agents/Sofia.md` | Profilul agentului Sofia (prompt + skill-uri) |
 | `filter/UTCNAC.md` | Curriculum-ul UTCN Automatică și Calculatoare |
 | `filter/UBVFMIIA.md` | Curriculum-ul UBV Informatică Aplicată |
+| `filter/UBBFMI.md` | Curriculum-ul UBB Matematică și Informatică (2025-2026) |
 | `jobs_100.json` | Subset de joburi folosit de frontend (cu fallback local) |
 | `jobs_ada_matched.json` | Output complet după procesarea agenților |
 | `src/services/api.js` | Frontend: încarcă `jobs_100.json` din GitHub, cu fallback local |

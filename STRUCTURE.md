@@ -70,6 +70,7 @@ Câmpul `f_tag` (array de string-uri) asociază fiecare job cu una sau mai multe
 |---------|---------------|-------------------|
 | `"UTCNAC"` | `filter/UTCNAC.md` | Student/absolvent al **Facultății de Automatică și Calculatoare, UTCN** (Universitatea Tehnică Cluj-Napoca) — profil tehnic, automatică, informatică aplicată |
 | `"UBVFMIIA"` | `filter/UBVFMIIA.md` | Student/absolvent al **Facultății de Matematică și Informatică Aplicată, Universitatea Transilvania din Brașov** — profil informatică aplicată |
+| `"UBBFMI"` | `filter/UBBFMI.md` | Student/absolvent al **Facultății de Matematică și Informatică, Universitatea Babeș-Bolyai Cluj-Napoca** — profil matematică, informatică, inteligență artificială, ingineria informației |
 
 ### Exemplu cu tag-uri multiple
 
